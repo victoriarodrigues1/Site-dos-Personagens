@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #524f4e;
+    color:#171414;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+#titulo {
+    background-color: #f0e9e9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+#titulo h1 {
+    font-size: 2rem;
+    color: #171414;
+    margin-bottom: 10px;
+}
+
+#titulo h2 {
+    font-size: 1.5rem;
+    color: #171414;
+    margin-bottom: 8px;
+}
+
+#titulo h3 {
+    font-size: 1.1rem;
+    color: #171414;
+}
+
+/* Estilo dos links */
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #171414;
+    background-color: #e5dedc;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+#links a:hover {
+    background-color: #4695d1;
+}
